@@ -48,6 +48,24 @@ avalanche-knowledge-base/
 | 05 | [Development](./module-05-development/) | JSON-RPC APIs, AvalancheJS, Avalanche CLI, tooling | Pending |
 | 06 | [Ecosystem](./module-06-ecosystem/) | Use cases, institutional adoption, grants, roadmap | Pending |
 
+## SDK Technical Decisions
+
+This repository also documents the implementation decisions behind
+**[avalanche_flutter_sdk](https://github.com/nemorixgroup/avalanche-flutter-sdk)** -
+the first native Flutter/Dart SDK for the Avalanche network. Every implementation decision is grounded in the official sources 
+documented in this repository - no third-party references, no unverified code.
+
+Current status: **Phase 1 in progress**
+
+| Feature | Status |
+|---------|--------|
+| secp256k1 - Key generation and curve parameters | ✅ Done |
+| CB58 - Encoding standard and checksum | ✅ Done |
+| BIP-39 - Mnemonic generation (EN + ES) | 🔄 Next |
+| HD Derivation - BIP-44 key derivation | ⏳ Pending |
+| EVM Address - keccak256 + EIP-55 | ⏳ Pending |
+
+See [docs-sdk/](./docs-sdk/) for the full documentation by phase.  
 
 ## Key Concepts at a Glance
 
