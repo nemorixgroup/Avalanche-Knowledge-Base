@@ -52,18 +52,21 @@ avalanche-knowledge-base/
 
 This repository also documents the implementation decisions behind
 **[avalanche_flutter_sdk](https://github.com/nemorixgroup/avalanche-flutter-sdk)** -
-the first native Flutter/Dart SDK for the Avalanche network. Every implementation decision is grounded in the official sources 
-documented in this repository - no third-party references, no unverified code.
+the first native Flutter/Dart SDK for the Avalanche network. Every
+implementation decision is grounded in the official sources documented
+in this repository - no third-party references, no unverified code.
 
-Current status: **Phase 1 in progress**
+Current status: **Phase 1 completed - Phase 2 in progress**
 
 | Feature | Status |
 |---------|--------|
 | secp256k1 - Key generation and curve parameters | ✅ Done |
 | CB58 - Encoding standard and checksum | ✅ Done |
-| BIP-39 - Mnemonic generation (EN + ES) | 🔄 Next |
-| HD Derivation - BIP-44 key derivation | ⏳ Pending |
-| EVM Address - keccak256 + EIP-55 | ⏳ Pending |
+| BIP-39 - Mnemonic generation (EN + ES) | ✅ Done |
+| HD Derivation - BIP-44 key derivation + Seed PBKDF2 | ✅ Done |
+| EVM Address - keccak256 + EIP-55 (C-Chain) | ✅ Done |
+| X/P-Chain Address - sha256 + ripemd160 + Bech32 | ✅ Done |
+| C-Chain EVM - JSON-RPC client | 🔄 Next |
 
 See [docs-sdk/](./docs-sdk/) for the full documentation by phase.  
 
