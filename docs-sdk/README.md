@@ -48,10 +48,10 @@ This documentation answers those questions for:
 
 | Feature | Description | Status |
 |---------|-------------|--------|
-| C-Chain EVM | JSON-RPC client, endpoint selection | 🔄 Next |
-| EIP-1559 | Transaction format, gas fee model | ⏳ Pending |
+| [C-Chain EVM](https://github.com/nemorixgroup/Avalanche-Knowledge-Base/tree/main/docs-sdk/phase2/C-Chain-EVM) | JSON-RPC client, read operations, endpoint selection | ✅ Done |
+| [Gas Estimation](https://github.com/nemorixgroup/Avalanche-Knowledge-Base/tree/main/docs-sdk/phase2/C-Chain-EVM) | eth_suggestPriceOptions, eth_baseFee, eth_estimateGas | ✅ Done |
+| EIP-1559 | Transaction signing and broadcast | 🔄 Next |
 | ERC-20 | Token transfers, ABI encoding | ⏳ Pending |
-| Gas Estimation | eth_estimateGas, buffer strategy | ⏳ Pending |
 
 ## Phase 3 - Data API / Glacier
 
