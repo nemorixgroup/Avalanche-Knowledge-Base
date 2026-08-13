@@ -66,7 +66,8 @@ Current status: **Phase 1 completed - Phase 2 in progress**
 | HD Derivation - BIP-44 key derivation + Seed PBKDF2 | ✅ Done |
 | EVM Address - keccak256 + EIP-55 (C-Chain) | ✅ Done |
 | X/P-Chain Address - sha256 + ripemd160 + Bech32 | ✅ Done |
-| C-Chain EVM - JSON-RPC client | 🔄 Next |
+| C-Chain EVM - JSON-RPC client | ✅ Done |
+| EIP-1559 | 🔄 Next |
 
 See [docs-sdk/](./docs-sdk/) for the full documentation by phase.  
 
