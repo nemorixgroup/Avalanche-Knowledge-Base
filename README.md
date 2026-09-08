@@ -41,12 +41,12 @@ avalanche-knowledge-base/
 
 | # | Module | Topics | Status |
 |---|--------|--------|--------|
-| 01 | [Foundations](./module-01-foundations/) | History, Ava Labs, origin, governance model | Pending |
-| 02 | [Consensus](./module-02-consensus/) | Snow family protocols, Snowball, Snowman, finality | Pending |
-| 03 | [AVAX Token](./module-03-avax/) | Tokenomics, supply cap, fee burning, staking, delegation | Pending |
-| 04 | [Architecture](./module-04-architecture/) | Primary Network, X/P/C-Chain, Avalanche L1s, custom VMs | Pending |
-| 05 | [Development](./module-05-development/) | JSON-RPC APIs, AvalancheJS, Avalanche CLI, tooling | Pending |
-| 06 | [Ecosystem](./module-06-ecosystem/) | Use cases, institutional adoption, grants, roadmap | Pending |
+| 01 | [Foundations](./module-01-foundations/) | History, Ava Labs, origin, governance model | ✅ Done |
+| 02 | [Consensus](./module-02-consensus/) | Snow family protocols, Snowball, Snowman, finality | ✅ Done |
+| 03 | [AVAX Token](./module-03-avax/) | Tokenomics, supply cap, fee burning, staking, delegation | ✅ Done |
+| 04 | [Architecture](./module-04-architecture/) | Primary Network, X/P/C-Chain, Avalanche L1s, custom VMs | ✅ Done |
+| 05 | [Development](./module-05-development/) | JSON-RPC APIs, AvalancheJS, Avalanche CLI, tooling | ✅ Done |
+| 06 | [Ecosystem](./module-06-ecosystem/) | Use cases, institutional adoption, grants, roadmap | ✅ Done |
 
 ## SDK Technical Decisions
 
@@ -56,18 +56,15 @@ the first native Flutter/Dart SDK for the Avalanche network. Every
 implementation decision is grounded in the official sources documented
 in this repository - no third-party references, no unverified code.
 
-Current status: **Phase 1 completed - Phase 2 in progress**
+Current status: **Phase 2 in progress**
 
 | Feature | Status |
 |---------|--------|
-| secp256k1 - Key generation and curve parameters | ✅ Done |
-| CB58 - Encoding standard and checksum | ✅ Done |
-| BIP-39 - Mnemonic generation (EN + ES) | ✅ Done |
-| HD Derivation - BIP-44 key derivation + Seed PBKDF2 | ✅ Done |
-| EVM Address - keccak256 + EIP-55 (C-Chain) | ✅ Done |
-| X/P-Chain Address - sha256 + ripemd160 + Bech32 | ✅ Done |
-| C-Chain EVM - JSON-RPC client | ✅ Done |
-| EIP-1559 | 🔄 Next |
+| Phase 1 - Architecture + Cryptography + Wallet | ✅ Done |
+| Phase 2 - C-Chain Core (EVM) | 🔄 Next |
+| Phase 3 - Data API (Glacier) + WebSocket | ⏳ Pending |
+| Phase 4 - P-Chain + X-Chain | ⏳ Pending |
+| Phase 5 - Final Tests, Examples and Docs | ⏳ Pending |
 
 See [docs-sdk/](./docs-sdk/) for the full documentation by phase.  
 
@@ -149,4 +146,5 @@ open source resource for the Avalanche blockchain community. Thank you!
 
 ---
 
-*Maintained by [Nemorix Group](https://github.com/nemorixgroup) - built with official sources only.*
+*Maintained by [Nemorix Group](https://github.com/nemorixgroup) - built with official sources only.*  
+Last Updated: September 2026.
