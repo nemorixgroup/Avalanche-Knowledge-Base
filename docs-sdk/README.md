@@ -51,13 +51,13 @@ This documentation answers those questions for:
 | [C-Chain EVM](https://github.com/nemorixgroup/Avalanche-Knowledge-Base/tree/main/docs-sdk/phase2/C-Chain-EVM) | JSON-RPC client, read operations, endpoint selection | ✅ Done |
 | [Gas Estimation](https://github.com/nemorixgroup/Avalanche-Knowledge-Base/tree/main/docs-sdk/phase2/C-Chain-EVM) | eth_suggestPriceOptions, eth_baseFee, eth_estimateGas | ✅ Done |
 | [EIP-1559](https://github.com/nemorixgroup/Avalanche-Knowledge-Base/blob/main/docs-sdk/phase2/EIP-1559/README.md) | Transaction signing and broadcast | ✅ Done |
-| ERC-20 | Token transfers, ABI encoding | 🔄 Next |
+| [ERC-20](https://github.com/nemorixgroup/Avalanche-Knowledge-Base/blob/main/docs-sdk/phase2/ERC-20/README.md) | Token transfers, ABI encoding | ✅ Done |
 
 ## Phase 3 - Data API / Glacier
 
 | Feature | Description | Status |
 |---------|-------------|--------|
-| Glacier API | REST client design, pagination | ⏳ Pending |
+| Glacier API | REST client design, pagination | 🔄 Next |
 | WebSocket | Stream design, auto-reconnect | ⏳ Pending |
 
 ## Phase 4 - P-Chain + X-Chain
