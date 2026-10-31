@@ -57,8 +57,9 @@ This documentation answers those questions for:
 
 | Feature | Description | Status |
 |---------|-------------|--------|
-| Glacier API | REST client design, pagination | 🔄 Next |
-| WebSocket | Stream design, auto-reconnect | ⏳ Pending |
+| [Glacier API](https://github.com/nemorixgroup/Avalanche-Knowledge-Base/blob/main/docs-sdk/phase3/Glacier-API/README.md) | REST client design, pagination | ✅ Done |
+| WebSocket | Stream design, auto-reconnect | 🔄 Next |
+| NFT (ERC-721 / ERC-1155) | Ownership, metadata | ⏳ Pending |
 
 ## Phase 4 - P-Chain + X-Chain
 
