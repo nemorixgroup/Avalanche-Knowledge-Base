@@ -56,13 +56,13 @@ the first native Flutter/Dart SDK for the Avalanche network. Every
 implementation decision is grounded in the official sources documented
 in this repository - no third-party references, no unverified code.
 
-Current status: **Phase 2 in progress**
+Current status: **Phase 3 in progress**
 
 | Feature | Status |
 |---------|--------|
 | Phase 1 - Architecture + Cryptography + Wallet | ✅ Done |
-| Phase 2 - C-Chain Core (EVM) | 🔄 Next |
-| Phase 3 - Data API (Glacier) + WebSocket | ⏳ Pending |
+| Phase 2 - C-Chain Core (EVM) | ✅ Done |
+| Phase 3 - Data API (Glacier) + WebSocket | 🔄 Next |
 | Phase 4 - P-Chain + X-Chain | ⏳ Pending |
 | Phase 5 - Final Tests, Examples and Docs | ⏳ Pending |
 
@@ -147,4 +147,4 @@ open source resource for the Avalanche blockchain community. Thank you!
 ---
 
 *Maintained by [Nemorix Group](https://github.com/nemorixgroup) - built with official sources only.*  
-Last Updated: September 2026.
+Last Updated: November 2026.
