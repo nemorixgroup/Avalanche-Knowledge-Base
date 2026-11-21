@@ -58,8 +58,8 @@ This documentation answers those questions for:
 | Feature | Description | Status |
 |---------|-------------|--------|
 | [Glacier API](https://github.com/nemorixgroup/Avalanche-Knowledge-Base/blob/main/docs-sdk/phase3/Glacier-API/README.md) | REST client design, pagination | ✅ Done |
-| WebSocket | Stream design, auto-reconnect | 🔄 Next |
-| NFT (ERC-721 / ERC-1155) | Ownership, metadata | ⏳ Pending |
+| [C-Chain WebSocket](https://github.com/nemorixgroup/Avalanche-Knowledge-Base/blob/main/docs-sdk/phase3/C-Chain-WebSocket/README.md) | Subscriptions, heartbeat, reconnection, ERC-20 transfer detection | ✅ Done |
+| NFT (ERC-721 / ERC-1155) | Ownership, metadata | 🔄 Next |
 
 ## Phase 4 - P-Chain + X-Chain
 
